@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b60c058b-f7d3-48ca-9246-159e481a0673" name="yavuz" url="http://185.82.220.19">
+        <fileTransfer host="185.82.220.19" port="34359" rootFolder="/var/www/vhosts/hepsimalzeme.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="34359" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

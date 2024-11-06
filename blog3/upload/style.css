@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&subset=latin-ext);
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+.con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.con2{
+    top: 25%;
+}
+
+.link {
+    background-color: mediumslateblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.max {
+    max-width: 100%;
+}
+
+.copy{
+    margin: 15px 0;
+}
+
+.a{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .con {
+        width: 90%;
+    }
+
+}
